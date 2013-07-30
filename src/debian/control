@@ -1,0 +1,12 @@
+Source: adonis-base
+Section: admin
+Priority: optional
+Maintainer: Bobby Martin <bobb.mrtn@gmail.com>
+Build-Depends: cdbs, debhelper (>= 5.0.0)
+Standards-Version: 3.9.4
+
+Package: adonis-base
+Architecture: all
+Depends: b43-fwcutter,firmware-atheros,firmware-b43-installer,firmware-bnx2,firmware-bnx2x,firmware-brcm80211,firmware-intelwimax,firmware-iwlwifi,firmware-libertas,firmware-linux,firmware-linux-nonfree,firmware-myricom,firmware-netxen,firmware-qlogic,firmware-ralink,firmware-realtek,network-manager-gnome,remastersys,xserver-xorg-video-all,xserver-xorg-input-all,xterm,zenity,openssh-server,openssh-client,sudo
+Description: Core dependencies of Adonis Linux.
+ Installs core depenencies for Adonis Linux.
